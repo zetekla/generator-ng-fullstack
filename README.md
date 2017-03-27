@@ -3,7 +3,9 @@
 [![Coverage Status](https://coveralls.io/repos/pristinetran/identillect-fullstack/badge.svg?branch=master)](https://coveralls.io/r/pristinetran/identillect-fullstack/?branch=master)
 
 
-The repo was built from following steps on https://angular-fullstack.github.io/
+- https://github.com/ericmdantas/generator-ng-fullstack
+
+
 
 with extra attentions:
 
@@ -15,3 +17,10 @@ server/commons/static/index.ts needs fix for being passed on gulp build
 
 `npm run dev`
 
+
+Alternatives:
+
+
+https://github.com/angular-fullstack/generator-angular-fullstack   (https://angular-fullstack.github.io/)
+
+- https://github.com/DaftMonk/generator-angular-fullstack/tree/canary
