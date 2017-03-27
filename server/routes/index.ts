@@ -8,12 +8,10 @@ export class Routes {
    static init(app: express.Application, router: express.Router) {
      TodoRoutes.init(router);
 
-     console.log('ROUTES', StaticDispatcher);
-
      router
        .route("*")
        .get(StaticDispatcher.sendIndex);
-     
+
 
      app.use("/", router);
    }

@@ -11,4 +11,7 @@ with extra attentions:
 
 
 
-`gulp serve` to begin development
+server/commons/static/index.ts needs fix for being passed on gulp build
+
+`npm run dev`
+
